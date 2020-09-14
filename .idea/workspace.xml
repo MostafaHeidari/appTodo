@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eec5568a-52fe-4144-a641-8c1b7e0ef9fb" name="Default Changelist" comment="dialog.js blev tiløjet &#10;dialog boks viser på screen">
-      <change beforePath="$PROJECT_DIR$/js/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/localStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/localStorage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/todo.js" afterDir="false" />
+    <list default="true" id="eec5568a-52fe-4144-a641-8c1b7e0ef9fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="pakkeJson " />
+        <option value="gulpfiles" />
       </list>
     </option>
   </component>
@@ -25,16 +27,60 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hUa4yP7Jkwk0KiNTgO4lXJBJUg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../todoApp" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="styles" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>styles</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>watch</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.styles" />
+        <item itemvalue="Gulp.js.watch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600067937637</updated>
-      <workItem from="1600067939112" duration="22622000" />
+      <workItem from="1600067939112" duration="23059000" />
     </task>
     <task id="LOCAL-00001" summary="app og todo file tilføjet">
       <created>1600068647848</created>
@@ -88,30 +134,62 @@
       <option name="project" value="LOCAL" />
       <updated>1600085314451</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="appen er færdig">
+      <created>1600122502805</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600122502805</updated>
+    </task>
+    <task id="LOCAL-00008" summary="appen er færdig">
+      <created>1600122547584</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600122547584</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="app og todo file tilføjet" />
     <MESSAGE value="todo app 1/3 section blev færdig. &#10;alt vikker fint end til nu." />
     <MESSAGE value="localStorage.js blev tilføjet" />
     <MESSAGE value="fejle rettede" />
     <MESSAGE value="Todo2 færdig.&#10;vikker godt" />
     <MESSAGE value="dialog.js blev tiløjet &#10;dialog boks viser på screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="dialog.js blev tiløjet &#10;dialog boks viser på screen" />
+    <MESSAGE value="appen er færdig" />
+    <option name="LAST_COMMIT_MESSAGE" value="appen er færdig" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="49" y="0" key="CommitChangelistDialog2" timestamp="1600085863541">
+    <state x="49" y="0" key="CommitChangelistDialog2" timestamp="1600122547029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="49" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600085863541" />
+    <state x="49" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600122547029" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1600118974983">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600118974983" />
+    <state width="1493" height="201" key="GridCell.Tab.0.bottom" timestamp="1600122741746">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="201" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600122741746" />
+    <state width="1493" height="201" key="GridCell.Tab.0.center" timestamp="1600122741746">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="201" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600122741746" />
+    <state width="1493" height="201" key="GridCell.Tab.0.left" timestamp="1600122741746">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="201" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600122741746" />
+    <state width="1493" height="201" key="GridCell.Tab.0.right" timestamp="1600122741746">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="201" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600122741746" />
     <state x="604" y="336" key="NewPhpFileDialog" timestamp="1600067966851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
