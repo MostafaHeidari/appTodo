@@ -1,3 +1,9 @@
+import LocalStorage from "./localStorage.js";
+
+const localStorage = new LocalStorage();
+
+
+
 export default class Todo {
     constructor() {
         this.enterButton = document.querySelector('#inputArea button');
@@ -23,6 +29,8 @@ export default class Todo {
 
         li.addEventListener('click', (e) => this.crossOut(e));
         li.querySelector('i').addEventListener('click', (e) => this.deletListItem(e));
+
+        localStorage.updateItems(this.ul);
     }
 
     crossOut(e) {
