@@ -3,12 +3,15 @@ import LocalStorage from "./localStorage.js";
 const localStorage = new LocalStorage();
 
 
-
 export default class Todo {
     constructor() {
         this.enterButton = document.querySelector('#inputArea button');
         this.indput = document.querySelector('#inputArea input');
         this.ul = document.querySelector('ul#toDoList');
+
+        if (localStorage.items.length > 0) {
+            this.loadFromLocalStorage();
+        }
 
         this.enterButton.addEventListener('click', (e) => this.addListItme(e))
         this.indput.addEventListener('keypress', (e) => this.addListItme(e));
@@ -43,4 +46,13 @@ export default class Todo {
         const listItem = e.currentTarget.parentNode;
         listItem.remove();
     }
+
+    loadFromLocalStorage() {
+        let listItems = '';
+        localStorage.items.forEach(item => listItems += item);
+        this.ul.innerHTML = listItems;
+
+    }
 }
+
+
