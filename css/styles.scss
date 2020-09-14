@@ -1,0 +1,138 @@
+$green: #21bc44;
+$white: #fff;
+$yellow: #FFCD50;
+$primary: #04a1bf;
+$primary-dark: #025F70;
+$secondary: #cd4ebc;
+$secondary-dark: #7c3271;
+
+
+body {
+  background-color: $primary;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+
+  #inputArea {
+    display: flex;
+  }
+
+  #inputArea input {
+    flex: 1 1 auto;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+  }
+
+  #inputArea input:focus {
+    outline-color: $yellow;
+    outline-offset: -2px;
+  }
+
+  #inputArea button {
+    color: white;
+    background-color: #025F70;
+    cursor: pointer;
+    flex: 0 1 50px;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: all 0.2s ease;
+  }
+
+  #inputArea button:hover {
+    background-color: $primary-dark;
+    color: yellow;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  li {
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+    border: 1px solid $secondary-dark;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: $secondary;
+    transition: all 0.75s ease;
+  }
+
+  li:hover {
+    background-color: $secondary-dark;
+  }
+
+  li i:hover {
+    transition: all 0.2s ease;
+    color: $yellow;
+  }
+}
+
+
+.done {
+  background-color: $green !important;
+  border-color: $green;
+}
+
+.delete {
+  display: none;
+}
+
+dialog {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 20px);
+  max-width: 500px;
+  border: none;
+  border-radius: 5px;
+
+  .dialog-button-group button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background: #866206;
+  }
+
+  .dialog-button-group button:focus {
+    outline-color: $yellow;
+  }
+
+
+  .dialog-button--false{
+    background-color: $primary;
+  }
+
+  .dialog-button--ture{
+    background-color: $secondary;
+
+  }
+
+  &::backdrop{
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
